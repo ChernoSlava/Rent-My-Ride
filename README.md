@@ -1,7 +1,7 @@
 # Rent-My-Ride
 ### Проект представляет собой сайт для аренды машин 
 
-### **Author** - Junior Frontend Developer `Вячеслав Черногоров`.
+### **Author** - Frontend Developer `Вячеслав Черногоров`.
 ---
 
 ## Технологический стек
