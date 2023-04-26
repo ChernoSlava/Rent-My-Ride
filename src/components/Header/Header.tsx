@@ -38,12 +38,12 @@ export function Header() {
           </li>
           <li>
             <Link onClick={openNav} to="/cars">
-              Models
+              Car Models
             </Link>
           </li>
           <li>
             <Link onClick={openNav} to="/review">
-              Testimonials
+              Reviews
             </Link>
           </li>
           <li>
@@ -77,12 +77,12 @@ export function Header() {
           </li>
           <li>
             <Link className="header-link" to="/cars">
-              Vehicle Models
+              Car Models
             </Link>
           </li>
           <li>
             <Link className="header-link" to="/review">
-              Testimonials
+              Reviews
             </Link>
           </li>
           <li>
