@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import Burger from './images/burger-menu.svg';
+import Logo from './images/car2.png';
 import Close from './images/CloseIcon.svg';
-import Logo from './images/logo.png';
 
 import './header.scss';
 
@@ -61,7 +61,7 @@ export function Header() {
       <div className="header__desktop">
         <div className="navbar__img">
           <Link to="/" onClick={() => window.scrollTo(0, 0)}>
-            <img src={Logo} alt="logo-img" />
+            <img className="header__logo" src={Logo} alt="logo-img" />
           </Link>
         </div>
         <ul className="header__links">

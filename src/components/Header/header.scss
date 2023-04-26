@@ -8,6 +8,9 @@
   z-index: 99999;
   margin: 0 auto;
 
+  &__logo {
+    width: 110px;
+  }
   &__desktop {
     display: flex;
     justify-content: space-between;
