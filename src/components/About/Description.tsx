@@ -2,7 +2,7 @@ import React from 'react';
 
 import aboutFoto from './images/about_main.jpg';
 
-import './styles/about.scss';
+import './styles/description.scss';
 
 export function Description() {
   return (
