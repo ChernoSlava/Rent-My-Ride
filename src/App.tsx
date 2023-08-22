@@ -4,7 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 import { Header } from './components';
 import { About, Cars, Contacts, Home, Review, Team } from './pages';
 
-import './styles/style.css';
+import './styles/style.scss';
 import './App.css';
 
 function App() {
