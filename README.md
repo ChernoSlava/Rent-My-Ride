@@ -1,12 +1,12 @@
 # Rent My Ride
-### Проект представляет собой сайт для аренды машин.
+### The project represents a website for car rental.
 
-### **Author** - Frontend Developer `Вячеслав Черногоров`.
+### **Author** - Frontend Developer `Viacheslav Chernogorov`.
 ---
 
-## Технологический стек
-- HTML5: семантические теги,
-- CSS 3: медиа-запросы,
+## Technology Stack
+- HTML5: Semantic tags,
+- CSS 3: Media queries,
 - JavaScript: React,
 - React hooks,
 - Higher-Order Components,
@@ -17,60 +17,60 @@
 
 ---
 
-## Предпросмотр проекта появится после окончания разработки
+## Project Preview will be available after development is complete.
 
 ---
 
-## Установка и запуск
+## Installation and Launch
 
-Требования:
+Requirements:
 
 * npm >= 6.14;
 
 * Node js
 
-### Запуск:
+### Launch:
 
 
-#### Для запуска проекта нужно: 
-1. Для этого на локальном компьютере выполните команду: 
+#### To launch the project: 
+1. To do this on your local computer, execute the command: 
 
-- `git clone https://github.com/ChernoSlava/Rent-My-Ride.git` - Для копирования проекта на локальный пк по https;
+- `git clone https://github.com/ChernoSlava/Rent-My-Ride.git` - To copy the project to your local PC via https;
 
-2. После этого в консоли нужно выполнить: 
+2. After that, in the console, you need to execute:
 
-- `npm install` - Для установки зависимостей;
+- `npm install` -  To install dependencies;
 
 
-3. Для использования:
+3. For usage:
 
-- `npm start` - Команда для запуска проекта;
-- `npm run build` - Для сборки проекта;
-- `npm run eslint` - Для проверки ошибок через ESLint;
-- `npm run storybook` - Для проверки и рефакторинга компонентов без запуска приложения;
+- `npm start` - Command to launch the project;
+- `npm run build` - To build the project;
+- `npm run eslint` - To check for errors through ESLint;
+- `npm run storybook` - To check and refactor components without launching the application;
 
 ---
-## Ссылки на другие проекты
-### Проекты созданные при обучении Яндекс.Практикум:
+## Links to other projects
+### Projects created during Yandex.Praktikum education:
 
-1) [Статичный сайт Путешествие по России](https://github.com/ChernoSlava/Russian-travel);
-2) [Репозиторий проекта Место на чистом js](https://github.com/ChernoSlava/Mesto);
-3) [Репозиторий полноценного доработанного проекта Место Frontend и Backend](https://github.com/ChernoSlava/react-mesto-api-full);
-4) [Дипломный проект Movies explorer](https://github.com/ChernoSlava/movies-explorer-frontend).
+1) [Static site Traveling in Russia](https://github.com/ChernoSlava/Russian-travel);
+2) [Repository of the project Place with pure js](https://github.com/ChernoSlava/Mesto);
+3) [Repository of a full-fledged improved project Place Frontend and Backend](https://github.com/ChernoSlava/react-mesto-api-full);
+4) [Diploma project Movies explorer](https://github.com/ChernoSlava/movies-explorer-frontend).
 
 
-### Проекты созданные при обучении и менторстве senior web developer Абретова А.:
+### Projects created during education and mentorship by senior web developer Abretov A.:
 
 1) [Counter](https://github.com/ChernoSlava/counter);
 2) [Counter-temperature](https://github.com/ChernoSlava/counter-temperature);
 3) [ToDo list](https://github.com/ChernoSlava/ToDo);
 4) [Contacts keeper](https://github.com/ChernoSlava/contacts-keeper);
 4) [Fish gallery](https://github.com/ChernoSlava/fish-gallery);
-5) [Рефакторинг дипломного проекта Movies explorer](https://github.com/ChernoSlava/Movies-exlorer-refactor).
+5) [Refactoring of the diploma project Movies explorer](https://github.com/ChernoSlava/Movies-exlorer-refactor).
 
-### Проекты с использованием разных технологий:
+### Projects using different technologies:
 
-1) [Digitals clock с использование SCSS/jQuery](https://github.com/ChernoSlava/Digital-Clock.git);
-2) [Films review с использование PUG/SCSS](https://github.com/ChernoSlava/Film-Review);
-3) [2d игра на Vanila JavaScript/Canvas](https://github.com/ChernoSlava/Fluppy);
-4) [Сайт по продаже бургеров React/Next js](https://github.com/ChernoSlava/Burgers-Next-JS).
+1) [Digital Clock using SCSS/jQuery](https://github.com/ChernoSlava/Digital-Clock.git);
+2) [Film Review using PUG/SCSS](https://github.com/ChernoSlava/Film-Review);
+3) [2D game in Vanilla JavaScript/Canvas](https://github.com/ChernoSlava/Fluppy);
+4) [Burger selling website React/Next js.](https://github.com/ChernoSlava/Burgers-Next-JS).
