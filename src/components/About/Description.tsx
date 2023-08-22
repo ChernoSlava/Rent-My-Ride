@@ -6,11 +6,11 @@ import './styles/description.scss';
 
 export function Description() {
   return (
-    <div className="about__container">
-      <div className="description">
+    <div className="description">
+      <h1 className="description__title">About our company</h1>
+      <div className="description__container">
         <img className="description__image" src={aboutFoto} alt="about foto" />
         <div className="description__data">
-          <h3 className="description__title">About our company</h3>
           <h2 className="description__subtitle">
             At Rent My Ride, we are passionate about providing{' '}
             <span>unparalleled</span> car rental services.
