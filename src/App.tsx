@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 
-import { Header } from './components';
+import { Footer, Header } from './components';
 import { About, Cars, Contacts, Home, Review, Team } from './pages';
 
 import './styles/style.scss';
@@ -19,6 +19,7 @@ function App() {
         <Route path="team" element={<Team />} />
         <Route path="contacts" element={<Contacts />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
