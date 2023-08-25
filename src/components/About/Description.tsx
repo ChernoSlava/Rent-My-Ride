@@ -7,7 +7,7 @@ import './styles/description.scss';
 export function Description() {
   return (
     <div className="description">
-      <h1 className="description__title">About our company</h1>
+      <h2 className="description__title">About our company</h2>
       <div className="description__container">
         <img className="description__image" src={aboutFoto} alt="about foto" />
         <div className="description__data">
