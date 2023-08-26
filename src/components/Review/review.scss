@@ -1,0 +1,40 @@
+@import "../../styles/global/index.scss";
+
+.review {
+    background-color: white;
+    box-shadow: 0 20px 40px 0 rgb(0 0 0 / 8%);
+    width: 54rem;
+    padding: 5.5rem;
+    position: relative;
+
+    @media (max-width: 1000px) {
+      padding: 5rem 3rem;
+    }
+    @media (max-width: 500px) {
+        width: 30rem;
+    }
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+
+        @media (max-width: 500px) {
+            margin-bottom: 30px;
+        }
+    }
+    &__image {
+        width: 7rem;
+        height: 7rem;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    &__name {
+        font-size: 1.8rem;
+        align-self: center;
+    }
+    &__text {
+        font-size: $h4-size;
+        font-weight: 500;
+    }
+}
