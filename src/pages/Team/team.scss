@@ -1,0 +1,30 @@
+@import "../../styles/global/index.scss";
+
+.team {
+    &__box {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        gap: 4rem;
+        align-items: center;
+        text-align: center;
+        padding: 10rem 2rem;
+        width: 110rem;
+        margin: 0 auto;
+
+        @media (max-width: 1150px) {
+            grid-template-columns: 1fr 1fr;
+            width: fit-content;
+        }
+
+        @media (max-width: 800px) {
+            grid-template-columns: 1fr;
+            width: fit-content;
+        }
+    }
+
+    &__title {
+        font-size: $h2-size;
+        margin-bottom: 1.4rem;
+    }
+}
