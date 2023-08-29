@@ -20,7 +20,7 @@ const team = [
   { img: Default, name: 'Izabella Jacobs', job: 'Photographer' },
   { img: Default, name: 'Tobias Ashley', job: 'Car Detailist' },
   { img: Default, name: 'Zack Solis', job: 'Mechanic' },
-  { img: Default, name: 'Neve Ali', job: 'Menager' },
+  { img: Default, name: 'Neve Ali', job: 'Manager' },
 ];
 
 function TeamRendered() {
