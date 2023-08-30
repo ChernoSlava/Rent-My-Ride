@@ -25,6 +25,9 @@
         font-weight: 500;
         margin-bottom: 1rem;
 
+        span {
+            color: $text-orange;
+        }
     }
     &__box {
         margin-top: 50px;
@@ -38,7 +41,7 @@
 
 }
 .box {
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
         display: flex;
         flex-direction: column;
     }
@@ -85,9 +88,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 200px;
 
     &__title {
-        font-size: $h4-size;
+        font-size: $h3-size;
         font-family: $titles-font;
         font-weight: 500;
         margin-bottom: 1rem;
@@ -104,10 +108,29 @@
         &_first {
             justify-content: end;
         }
+
+        
+    }
+}
+.text {
+    margin-top: 60px;
+    max-width: 800px;
+
+    h3 {
+        font-size: $h3-size;
+        font-family: $titles-font;
+        font-weight: 500;
+        margin-bottom: 2rem;
+        color: $text-orange;
+    }
+    p {
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
     }
 }
 .form {
-    margin: 40px 0 20px;
+    margin: 40px 0 40px;
 
     p {
         font-size: $h3-size;
@@ -115,7 +138,7 @@
         font-weight: 500;
         margin-bottom: 2rem;
     }
-    button {
+    &__button {
         text-decoration: none;
         color: $bg-white;
         font-weight: 700;

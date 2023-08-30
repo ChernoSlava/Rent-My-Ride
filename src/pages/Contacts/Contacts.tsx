@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import { Bunner } from '../../components/Bunner/Bunner';
 import { CallUs } from '../../components/CallUs/CallUs';
+import { ContactPopup } from '../../components/ContactForm/ContactForm';
 
 import facebook from './images/facebook.svg';
 import github from './images/github.svg';
@@ -11,6 +12,12 @@ import linkedin from './images/linkedin.svg';
 import './contacts.scss';
 
 export function Contacts() {
+  const [popupOpen, setPopupOpen] = useState(false);
+
+  const togglePopup = () => {
+    setPopupOpen(!popupOpen);
+  };
+
   return (
     <>
       <Bunner page="Contacts" />
@@ -22,10 +29,10 @@ export function Contacts() {
               <div className="contacts__heading">
                 <h2 className="contacts__title">Get in Touch</h2>
                 <p className="contacts__subtitle">
-                  Feel free to reach out to us with any inquiries, questions, or
-                  feedback. We are here to assist you and provide the
-                  information you need. You can contact us through the following
-                  channels:
+                  <span>Feel free</span> to reach out to us with any inquiries,
+                  questions, or feedback. We are here to assist you and provide
+                  the information you need. You can contact us through the
+                  following channels:
                 </p>
               </div>
               <div className="contacts__box box">
@@ -108,9 +115,25 @@ export function Contacts() {
                   referrerPolicy="no-referrer-when-downgrade"
                 />
               </div>
+              <div className="text">
+                <h3>
+                  We value your input and look forward to hearing from you.
+                </h3>
+                <p>
+                  Whether you have questions about our car rental services, want
+                  to know more about our vehicle models, or need assistance with
+                  your reservation, our team is here to assist you.
+                </p>
+              </div>
               <div className="form">
-                <p>Do you have a question?</p>
-                <button type="button">Push here</button>
+                <p>Do you have any questions?</p>
+                <button
+                  className="form__button"
+                  type="button"
+                  onClick={togglePopup}>
+                  Push here
+                </button>
+                {popupOpen && <ContactPopup onClose={togglePopup} />}
               </div>
             </div>
           </div>
