@@ -14,7 +14,7 @@ const team = [
   {
     img: Developer,
     name: 'Viacheslav Chernogorov',
-    job: 'Product manager & Fullstack Developer',
+    job: 'Project manager & Fullstack Developer',
   },
   { img: Tester, name: 'Svetlana Lozan', job: 'Designer UI/UX & QA Engineer' },
   { img: Default, name: 'Izabella Jacobs', job: 'Photographer' },
