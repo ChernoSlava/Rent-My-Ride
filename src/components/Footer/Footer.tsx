@@ -1,8 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
+
+import check from './images/check.svg';
 
 import './footer.scss';
 
 export function Footer() {
+  const [email, setEmail] = useState('');
+  const [subscribed, setSubscribed] = useState(false);
+
+  const handleSubmit = (e: { preventDefault: () => void }) => {
+    e.preventDefault();
+    setSubscribed(true);
+    setEmail('');
+    setTimeout(() => {
+      setSubscribed(false);
+    }, 4000);
+  };
+
   return (
     <footer className="footer">
       <div className="container">
@@ -59,13 +73,24 @@ export function Footer() {
               <p>Subscribe your Email address for latest news & updates.</p>
             </li>
             <li>
-              <input type="email" placeholder="Email Address" />
+              <form onSubmit={handleSubmit}>
+                <input
+                  type="email"
+                  placeholder="Email Address"
+                  value={email}
+                  onChange={e => setEmail(e.target.value)}
+                />
+                <button className="footer__button" type="submit">
+                  Submit
+                </button>
+              </form>
             </li>
-            <li>
-              <button className="footer__button" type="submit">
-                Submit
-              </button>
-            </li>
+            {subscribed && (
+              <li className="subscription">
+                <p>You are subscribed!</p>
+                <img src={check} alt="success icon" />
+              </li>
+            )}
           </ul>
         </div>
       </div>

@@ -14,13 +14,13 @@ const team = [
   {
     img: Developer,
     name: 'Viacheslav Chernogorov',
-    job: 'Product manager & Fullstack Developer',
+    job: 'Project manager & Fullstack Developer',
   },
   { img: Tester, name: 'Svetlana Lozan', job: 'Designer UI/UX & QA Engineer' },
   { img: Default, name: 'Izabella Jacobs', job: 'Photographer' },
   { img: Default, name: 'Tobias Ashley', job: 'Car Detailist' },
   { img: Default, name: 'Zack Solis', job: 'Mechanic' },
-  { img: Default, name: 'Neve Ali', job: 'Menager' },
+  { img: Default, name: 'Neve Ali', job: 'Manager' },
 ];
 
 function TeamRendered() {
