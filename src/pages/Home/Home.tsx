@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { Bunner } from '../../components/Bunner/Bunner';
 import { FirstScreen } from '../../components/homeComponents';
+import { BookForm } from '../../components/homeComponents/BookForm';
 
 import './home.scss';
 
@@ -14,6 +15,7 @@ export function Home() {
 
       <section className="main">
         <FirstScreen />
+        <BookForm />
       </section>
     </>
   );
