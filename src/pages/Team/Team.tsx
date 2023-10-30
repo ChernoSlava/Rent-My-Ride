@@ -27,7 +27,12 @@ function TeamRendered() {
   return (
     <>
       {team.map(player => (
-        <Employee name={player.name} img={player.img} job={player.job} />
+        <Employee
+          key={player.name}
+          name={player.name}
+          img={player.img}
+          job={player.job}
+        />
       ))}
     </>
   );

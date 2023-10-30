@@ -11,7 +11,7 @@ export function Employee({
   job = 'Product manager',
 }) {
   return (
-    <div key={name} className="employee">
+    <div className="employee">
       <div className="employee__imagebox">
         <img src={img} alt="employee" className="employee__img" />
       </div>

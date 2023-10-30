@@ -66,7 +66,7 @@ export function BookForm() {
             value={rentDays}
             onChange={e => {
               const value = parseInt(e.target.value, 10);
-              setRentDays(Math.min(value, 30)); // Ограничиваем до 30 дней
+              setRentDays(Math.min(value, 30));
             }}
             min="1"
             max="30"
